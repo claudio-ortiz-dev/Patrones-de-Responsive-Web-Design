@@ -39,3 +39,13 @@ h1 {
 }
 
 /** CODIGO AQUI **/
+@media (min-width: 768px) {
+    .tres-columnas {
+   display: grid;
+   /* grid-template-columns: 33.33% 33.33% 33.33%;
+   grid-template-columns: repeat(3, 33.33%);
+   grid-template-columns: 1fr 1fr 1fr; */
+   grid-template-columns: repeat(3, 1fr);
+   column-gap: 2rem;
+    }
+}
